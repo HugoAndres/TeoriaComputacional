@@ -4,9 +4,7 @@
 
 from collections import Counter
 
-p = "google"
-
+p = "google.com"
 Counter(p)
-
 print(p)
 print("\n",Counter(p))

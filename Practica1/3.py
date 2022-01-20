@@ -7,12 +7,29 @@
 #Resultado esperado: '' (Cadena vac�a)
 
 
-cadena= 'teoria computacional'
+cadena= 'w3resource'
 if len(cadena)>=2:
     print("cadena:",cadena)
     print(cadena[:2])
     print(cadena[-2:])
 else:
+    print("cadena vacia")
+
+cadena= 'w3'
+if len(cadena)>=2:
+    print("cadena:",cadena)
+    print(cadena[:2])
+    print(cadena[-2:])
+else:
+    print("cadena vacia")
+
+cadena='w'
+if len(cadena)>=2:
+    print("cadena:",cadena)
+    print(cadena[:2])
+    print(cadena[-2:])
+else:
+    print("cadena:",cadena)
     print("cadena vacia")
 
 
